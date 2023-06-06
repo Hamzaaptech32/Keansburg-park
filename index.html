@@ -1,0 +1,1728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keansburg park</title>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.4.0-web/css/all.css">
+
+</head>
+
+<body>
+    <!-- Home start -->
+    <section id="home">
+
+        <!-- Navbar -->
+        <header>
+            <nav class="navbar fs-6 fixed-top p-2 nav-bottom navbar-expand-sm">
+                <div class="container">
+                    <a class="navbar-brand anim shadow-none" href="#"><img src="/assets/images/keansburg park logo.png"
+                            width="60%"></a>
+                    <button class="navbar-toggler  d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse justify-content-around navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav text-light mt-2 mt-lg-0">
+                            <li class="nav-item anim ">
+                                <a class="nav-link active px-3" href="#home" aria-current="page">Home <span
+                                        class="visually-hidden">(current)</span></a>
+                            </li>
+                            <li class="nav-item anim">
+                                <a class="nav-link px-3" href="#gallery">Gallery</a>
+                            </li>
+                            <li class="nav-item anim">
+                                <a class="nav-link px-3" href="#contact-us">Contact</a>
+                            </li>
+                            <li class="nav-item anim dropdown">
+                                <a class="nav-link dropdown-toggle px-3" href="#" id="dropdownId"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tickets &
+                                    Price</a>
+                                <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item text-dark fs-6" href="#packages">Packages</a>
+                                    <a class="dropdown-item text-dark fs-6" href="#booking">Booking</a>
+                                </div>
+                            </li>
+                            <li class="nav-item anim dropdown">
+                                <a class="nav-link dropdown-toggle px-3" href="#" id="dropdownId"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Attractions</a>
+                                <div class="dropdown-menu bg-secondary" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item text-dark fs-6" href="#zones">Zones</a>
+                                    <a class="dropdown-item text-dark fs-6" href="#restaurant">Restaurants</a>
+                                    <a class="dropdown-item text-dark fs-6" href="#entertainment">Entertainment</a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item anim">
+                                <a class="nav-link px-3" href="#about">About</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex ms-5 my-2 my-lg-0">
+                            <button class="btn btn-outline-light  ms-5 my-2 my-sm-0 px-5 py-2 rounded-pill"
+                                data-bs-toggle="modal" data-bs-target="#login" type="button">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Navbar -->
+
+        <!-- Login form -->
+
+        <!-- Modal Body -->
+        <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+        <div class="modal fade" id="login" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false"
+            role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog  modal-dialog-centered modal-md" role="document">
+                <div class="modal-content login">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="modalTitleId">LOGIN</h3>
+                        <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <form>
+                    <div class="modal-body">
+                        
+                            <div class="mb-3 mt-4">
+                                <label for="inputemail" class="form-label fs-5">Email address</label>
+                                <input type="email" required name="email" class="form-control border-secondary" id="inputemail"
+                                    aria-describedby="emailhelp">
+                                <div id="emailhelp" class="form-text"> Me'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputpassword"  class="form-label fs-5">Password</label>
+                                <input type="password" required class="form-control border-secondary" id="inputpassword">
+                            </div>
+                            <div class=" form-check mt-2 mb-3">
+                                <input type="checkbox" class="form-check-input bg-secondary" id="check1">
+                                <label for="check1" class="form-check-label">Remember me</label>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-success">Login</button>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Login form -->
+
+        <!-- Background text -->
+        <div class="bg-A row">
+
+            <div class="col-md-6 float-start text-center ms-5">
+                <h3 class="text-dark bg-text1 fw-bold">Welcome To</h3>
+                <h1 class=" text-dark bg-text2 align-baseline fw-bolder">Keansburg Amusement Park</h1>
+                <p class="mb-4 fs-5 bg-text3 text-light">An amusement park is a park that features various attraction,
+                    such as rides and games as well as other events for entertainment purpose.</p>
+                <a href="#packages"><button
+                        class="btn float-start ticketbutton  btn-outline-dark fs-6 px-md-4 py-lg-3 rounded-pill"
+                        type="button"><i class="fa-sharp fa-lg fa-solid fa-ticket me-2"></i>Buy ticket</button></a>
+
+            </div>
+        </div>
+        <!-- Background text -->
+
+        <!-- Cards -->
+        <div class="row mt-5 pt-5">
+            <h1 class=" border-dark text-center pkginfo">Rides and Attraction</h1>
+            <hr class="w-25 m-auto">
+        </div>
+        <div class="row mt-3 p-5">
+            <div class="col-md-4">
+                <div class="card m-auto border-0" style="width: 20rem;">
+                    <a href="#zones"> <img src="/assets/images/bumper-car-g4a051532b_1920.jpg" width="100%"
+                            class="card-img-top" alt=""></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Bumper car</h5>
+                        <p class="card-text">Completely Remodeled with a new fleet of Bertazzon cars, you’ll have fun
+                            driving and bumping your way through the newly refurbished track!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card m-auto border-0" style="width: 20rem;">
+                    <a href="#zones"> <img src="/assets/images/pexels-oleksandr-pidvalnyi-13400067.jpg" width="100%"
+                            class="card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Magic ring</h5>
+                        <p class="card-text ">
+                            Children pick their favorite vehicle to ride. Whether it’s the forklift, race car, jeep or
+                            motorcycle, kids love all the working parts and buzzers. When the ride is over, pick out a
+                            new vehicle and ride again!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card m-auto border-0" style="width: 20rem;">
+                    <a href="#zones"> <img src="/assets/images/chris-slupski-QLqIqIhMiNs-unsplash.jpg" width="100%"
+                            class=" card-img-top" alt="..."></a>
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Roller coster</h5>
+                        <p class="card-text">This coaster is the perfect thrill without an enormous scare. The giant
+                            serpent combines smooth sharp turns and gentle dips to make it one of the most popular
+                            attractions in the park.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Cards -->
+
+        <!-- Slider -->
+        <div class="container my-5">
+            <div class="row my-5 py-5 m-auto">
+                <div id="carouselId" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                            aria-label="First slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="/assets/images/ian-romie-ona-x6QdZQkuroI-unsplash-.jpg"
+                                class="m-auto w-100 d-block" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/images/matt-hardy-F08dLrD-GHI-unsplash-.jpg" class="m-auto w-100 d-block"
+                                alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/images/roller-coaster-g66604411a_1920-.jpg" class="m-auto w-100 d-block"
+                                alt="Third slide">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Slider-->
+
+        <!-- Ticker -->
+        <div class="row marquee mt-5 text-light p-3">
+            <marquee behavior="scroll" direction="left">Amusement park is OPEN TONIGHT starting at 5PM.Friday nights,
+                Saturday, and Sunday. Limited kiddie rides open at 11am, limited major rides, restaurants, bars,
+                arcades, and games open at 12pm. Go karts open at 1pm. Majority major rides open at 2pm.</marquee>
+        </div>
+        <div class="row bg-ticker fw-bold text-light text-center">
+            <div class="col-md-6 py-3 px-5 bg-tick m-auto">
+                <p class="py-3 fs-5">AMUSEMENT PARK OPEN TONIGHT STARTING AT 5PM</p>
+                <p class="py-3 text-light">Fri 5/12: Limited rides, restaurants, & attractions open at 5pm. Majority
+                    rides, games, restaurants, and attractions open at 6pm.</p>
+                <p class="py-3 fs-5">$20 unlimited ride wristband deal every Friday from 5pm - closing</p>
+                <p class="py-3 text-light">SAT 5/13 & Sun 5/14: Limited kiddie rides open at 11am, limited major rides,
+                    restaurants, bars, arcades, and games open at 12pm. Majority kiddie rides & go karts open at 1pm.
+                    Majority major rides open at 2pm.</p>
+            </div>
+            <div class="col-md-6 m-auto">
+            </div>
+        </div>
+        <!-- Ticker -->
+
+        <!-- Packages info -->
+        <div class="container my-5">
+        <div class="row my-5">
+            <div class="col-md-6">
+            <h3 class="pkginfo mt-5 pb-3">Ticket Packages</h3>
+            <h1 class="text-dark mb-5 mt-1">CHOOSE THE BEST PACKAGES FOR YOUR FAMILY</h1>
+            <p><i class="fa-solid pkginfo fa-check me-2"></i>Best Amusement park in the World</p>
+            <p><i class="fa-solid pkginfo fa-check me-2"></i>Best Packages For Your Family</p>
+            <p><i class="fa-solid pkginfo fa-check me-2"></i>Enjoy Various Kinds of Amusement Park</p>
+            <p><i class="fa-solid pkginfo fa-check me-2"></i>Win Up to 3 Free All Daily Tickets</p>
+            <a href="#packages"><button class="btn pkg fw-bold p-2 mt-4 mb-3 m-auto text-light px-3">ALL PACKAGES</button></a>
+            </div>
+            <div class="col-md-6"><img src="/assets/images/pexels-suliman-sallehi-2128165.jpg" width="100%" class="shadow-lg mt-2" alt=""></div>
+        </div>
+        </div>
+
+        <!-- Packages info -->
+
+        <!-- Reviews and Ratings -->
+        <div class="container review mt-4 p-4 pb-5">
+            <h1 class=" text-center fs-1 pkginfo">Reviews and Ratings</h1>
+            <hr class="w-25 m-auto">
+            <div></div>
+            <div class="testimonial py-5 mt-4">
+                <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="single-item">
+                                <div class="row w-75 pt-3 bg-color m-auto">
+                                    <div class="col-md-5 mt-3">
+                                        <div class="text-center profile">
+                                            <div class="img-area">
+                                                <img src="/assets/images/elegant-man-with-crossed-amrs.jpg"
+                                                    class=" rounded-pill w-50" alt="">
+                                            </div>
+                                            <div class="p-3 text-light">
+                                                <h2>David milner</h2>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="content ms-2 mt-4">
+                                            <p class="text-light ">Wonderful experience, amusement park, just like you
+                                                came on heaven of fun. Personally love to visit the place,
+
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star-half-stroke text-warning"></i>
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="single-item">
+                                <div class="row w-75 pt-3 bg-color m-auto">
+                                    <div class="col-md-5 mt-3">
+                                        <div class="text-center profile">
+                                            <div class="img-area">
+                                                <img src="/assets/images/business-man-handsome-cute-guy-grey-office-suit.jpg"
+                                                    class=" rounded-pill w-50" alt="">
+                                            </div>
+                                            <div class="p-3 text-light">
+                                                <h2>Jack Fred</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="content ms-2 mt-4">
+                                            <p class="text-light">I visits this Park Every year, because of the facility
+                                                provide by them are excellent. I personally recommend to visit the two
+                                                times a year.</p>
+                                            <p>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star-half-stroke text-warning"></i>
+
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="single-item">
+                                <div class="row w-75 pt-3 bg-color m-auto">
+                                    <div class="col-md-5 mt-3">
+                                        <div class="text-center profile">
+                                            <div class="img-area">
+                                                <img src="/assets/images/blond-businessman-happy-expression.jpg"
+                                                    class="rounded-pill w-50" alt="">
+                                            </div>
+                                            <div class="text-light p-3">
+                                                <h2>James William</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="content ms-2 mt-4">
+                                            <p class="text-light">Had a very good experience at wonderla, would
+                                                definitely like to come again here, but the only reason I gave 4 stars
+                                                is that the park is very overcrowded.
+
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                                <i class="fa-solid fa-star text-warning"></i>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Reviews and Ratings-->
+
+
+
+    </section>
+    <!-- Home end -->
+
+    <!-- gallery start -->
+    <section id="gallery">
+
+        <div class="container py-5">
+            <div class="row mt-5 text-center">
+                <h1 class="text-center mt-1 m-auto text-light p-2 bg-section mt-3">Gallery</h1>
+                <p class="mt-1 fs-5">Beautiful Capture Moment</p>
+            </div>
+            <!-- first row -->
+            <div class="row my-5">
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-picjumbocom-225238.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId1" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade" id="modalId1" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-picjumbocom-225238.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-anton-uniqueton-5986115.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId2" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade" id="modalId2" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-anton-uniqueton-5986115.jpg"
+                                        class="w-100 opacity-25 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-elina-fairytale-3810971.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId3" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId3" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-elina-fairytale-3810971.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-sergio-souza-1782130.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId4" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId4" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-sergio-souza-1782130.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- first row -->
+
+            <!-- second row -->
+            <div class="row my-5">
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-brett-sayles-9681675.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId5" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId5" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-brett-sayles-9681675.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-aleks-magnusson-3071456.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId6" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade" id="modalId6" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-aleks-magnusson-3071456.jpg"
+                                        class="w-100 opacity-25 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-vaan-photography-12086705.jpg" class="w-100 shadow gallery-effect"
+                        data-bs-toggle="modal" data-bs-target="#modalId7" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId7" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-vaan-photography-12086705.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-catarina-cunha-4123545.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId8" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId8" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-catarina-cunha-4123545.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- second row -->
+
+            <!-- third row -->
+            <div class="row my-5">
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-brett-sayles-2986108.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId9" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId9" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-brett-sayles-2986108.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-niklas-jeromin-13201027.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId10" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade" id="modalId10" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-niklas-jeromin-13201027.jpg"
+                                        class="w-100 opacity-25 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-umut-dağli-13233778.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId11" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId11" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-umut-dağli-13233778.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-alexander-nadrilyanski-10622441.jpg"
+                        class="w-100 gallery-effect shadow" data-bs-toggle="modal" data-bs-target="#modalId12" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId12" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-alexander-nadrilyanski-10622441.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- third row -->
+
+            <!-- fourth row -->
+            <div class="row my-5">
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-alessio-cesario-1906839.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId13" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId13" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-alessio-cesario-1906839.jpg"
+                                        class="w-100 shadow h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-cottonbro-studio-4551857.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId14" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade" id="modalId14" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-cottonbro-studio-4551857.jpg"
+                                        class="w-100 opacity-25 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/Paris + Pierce's State Fair Date.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId15" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId15" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/Paris + Pierce's State Fair Date.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-vladimir-srajber-13406159.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId16" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId16" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-vladimir-srajber-13406159.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- fourth row -->
+
+            <!-- fifth row -->
+            <div class="row my-5">
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/background-.jpg" class="w-100 gallery-effect shadow" data-bs-toggle="modal"
+                        data-bs-target="#modalId17" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId17" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/background-.jpg" class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/laura-cros-toE4h_LIsoM-unsplash.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId18" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade" id="modalId18" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/laura-cros-toE4h_LIsoM-unsplash.jpg"
+                                        class="w-100 opacity-25 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/ebba-thoresson-V-DVjttlaWg-unsplash.jpg"
+                        class="w-100 gallery-effect shadow" data-bs-toggle="modal" data-bs-target="#modalId19" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId19" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/ebba-thoresson-V-DVjttlaWg-unsplash.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-3 pb-4">
+                    <!-- Modal trigger button -->
+                    <img src="/assets/images/pexels-christopher-yarzab-13974906.jpg" class="w-100 gallery-effect shadow"
+                        data-bs-toggle="modal" data-bs-target="#modalId20" alt="">
+
+                    <!-- Modal Body -->
+                    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+                    <div class="modal fade " id="modalId20" tabindex="-1" data-bs-backdrop="static"
+                        data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content bg-transparent border-0">
+                                <div>
+                                    <button type="button" class="btn-close bg-light p-3 rounded-pill  float-end"
+                                        data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="/assets/images/pexels-christopher-yarzab-13974906.jpg"
+                                        class="w-100 shadow-lg h-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <!-- fifth row -->
+
+        </div>
+
+    </section>
+    <!-- gallery end -->
+
+    <!-- contact-us start -->
+    <section id="contact-us">
+
+        <div class="container-fluid py-5">
+            <div class="container shadow mt-5">
+                <div class="row mt-5">
+                    <div class="col-md-4 bg-color p-5 m-auto text-light">
+                        <h2 data-aos="zoom-in">Let's get in touch</h2>
+                        <p data-aos="zoom-in">Fill up the form and our team will get back to you with in 24 hours </p>
+                        <div class="mt-2">
+                            <p><i class="fa mt-1 me-2 fa-location-dot"></i>Address: Keansburg Amusement Park Runaway
+                                Rapids PO Box 189 275 Beachway Avenue
+                                Keansburg, NJ 07734.</p>
+                        </div>
+                        <div class="mt-2">
+                            <p><i class="fa me-2 fa-phone"></i>Phone: 123456789</p>
+                        </div>
+                        <div class="mt-2">
+                            <p><i class="fa mt-1 me-2 fa-envelope"></i>Email: Keansburg123@gmail.com</p>
+                        </div>
+                        <div class="d-block text-center fs-3 mt-5">
+                            <a href="https://www.facebook.com/KeansburgAmusementRunawayRapids?fref=ts" target="_blank"
+                                class="text-light"><i class="fa-brands iconf rounded-pill px-3 fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/keansburg_amusement_park/" target="_blank"
+                                class="text-light"><i class="fa-brands iconi px-3 fa-instagram"></i></a>
+                            <a href="https://twitter.com/keansburgamuse" target="_blank" class="text-light"><i
+                                    class="fa-brands icont px-3 fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/channel/UCzSjdtGlECw7qMfCw9H6_wg" target="_blank"
+                                class="text-light"><i class="fa-brands icony px-3 fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 text-center my-5">
+                        <h2>Feel free<span class="pkginfo"> to contact us</span></h2>
+                        <hr class="w-25 m-auto">
+
+                        <form action="" class="row g-3 mt-4">
+                            <div class="col-md-12">
+                                <input type="text" required name="name" class="form-control" placeholder="Name">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" required name="email" class="form-control" aria-describedby="emailhelp" placeholder="Email">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="text" required class="form-control" placeholder="Address">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="number" required class="form-control" placeholder="Contact Number">
+                            </div>
+                            <div class="col-md-12 ">
+                                <input type="text" required class="form-control py-5 text-center" placeholder="Message">
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn bg-color px-3 text-light float-end">SEND
+                                    MESSAGE</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24290.704867753757!2d-74.14942756230273!3d40.44565302411895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1skeansburg%20park!5e0!3m2!1sen!2s!4v1683492823416!5m2!1sen!2s"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+    <!-- contact-us end -->
+
+    <!-- packages start -->
+    <section id="packages">
+
+        <div class="container py-5">
+            <div class="row mt-5">
+                <h1 class="text-center mt-1 m-auto text-light p-2 bg-section">Packages</h1>
+            </div>
+
+            <div class="container-fluid mt-4">
+                <div class="row p-5">
+                    <div class="col-md-4 mb-5">
+                        <a href="#booking" class="text-decoration-none">
+                            <div class="card pkg p-4">
+                                <h3 class="text-center text-light">Family Package</h3>
+                                <h1 class="text-center text-success">$299,90<p class="text-secondary fs-6">/family</p>
+                                </h1>
+                                <hr class="mb-5 text-light mt-3">
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>All Access To
+                                    Park</p>
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2 "></i>Free Soft
+                                    Drink</p>
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>Get Four
+                                    Lockers</p>
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>Free Rides</p>
+                                <a href="#booking"><button
+                                        class="btn btn-light shadow-none text-success px-3 fw-bold mt-4 m-auto">BOOK
+                                        NOW</button></a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <a href="#booking" class="text-decoration-none">
+                            <div class="card bg-color pkg p-4">
+                                <h3 class="text-center text-light">Weekend Package</h3>
+                                <h1 class="text-center text-success">$95,60<p class="text-secondary fs-6">/weekend</p>
+                                </h1>
+                                <hr class="mb-5 mt-3 text-light">
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>All Access To
+                                    Park</p>
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>Free Soft Drink
+                                </p>
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>Get three
+                                    Lockers</p>
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>Rides 50% Off
+                                </p>
+                                <a href="#booking"><button
+                                        class="btn btn-light shadow-none text-success px-3 m-auto fw-bold mt-4">BOOK
+                                        NOW</button></a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <a href="#booking" class="text-decoration-none">
+                            <div class="card pkg p-4">
+                                <h3 class="text-center text-light">Weekday Package</h3>
+                                <h1 class="text-center text-success">$59,90 <p class="text-secondary fs-6">/weekday</p>
+                                </h1>
+                                <hr class="mb-5 text-light mt-3">
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>All Access To
+                                    Park</p>
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>Free Soft Drink
+                                </p>
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>Get one Locker
+                                </p>
+                                <p class="text-light"><i class="fa-solid text-success fa-check me-2"></i>Paid Rides</p>
+                                <a href="#booking"><button
+                                        class="btn btn-light text-success shadow-none fw-bold px-3 m-auto mt-4">BOOK
+                                        NOW</button></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- packages end -->
+
+    <!-- booking form start -->
+    <section id="booking" class="bg-height">
+
+        <div class="container-fluid py-5">
+            <div class="container mt-5">
+                <div class="row">
+                    <form action="">
+                    <div class="col-md-9 py-3 m-auto">
+                        <h1 class="text-center text-success">Booking</h1>
+                        <div class="mb-4 mt-5">
+                            <input type="text" class="form-control" required name="name" placeholder="Your Name">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-4">
+                                    <input type="number" class="form-control p-2" required
+                                        placeholder="Your Phone">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-4">
+                                    <input type="email" class="form-control p-2" required name="email"
+                                        placeholder="Your Email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-4">
+                                    <input type="text" class="form-control p-2" required
+                                        placeholder="City">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-4">
+                                    <input type="number" class="form-control p-2" required
+                                        placeholder="Zip code">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <input class="form-control" list="datalistOptions" required
+                                placeholder="Select Package">
+                            <datalist id="datalistOptions">
+                                <option value="Family package"></option>
+                                <option value="Weekend package"></option>
+                                <option value="Weekday package"></option>
+                            </datalist>
+                        </div>
+
+                        <div class="mb-4">
+                            <input type="date" class="form-control" required placeholder="DD-MM-YYYY">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" required placeholder="Guest">
+                        </div>
+                        <div>
+                            <button type="submit" class="btn bg-color text-light px-4 py-2 fw-bold float-end">BOOK NOW</button>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- booking form end -->
+
+    <!-- zones start -->
+    <section id="zones">
+        <div class="container py-5">
+            <div class="row mt-5 text-center">
+                <h1 class="text-center mt-1 m-auto text-light p-2 bg-section">Zones</h1>
+            </div>
+            <div class="row mt-5 py-4 m-auto">
+                <div class="col-md-6 py-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="/assets/images/amuse-g6f3882608_1920.jpg" class="w-100 rounded-start"
+                                alt="Card title">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="card-title">Carousel</h2>
+                            <p class="card-text">You are never too old to catch the brass ring! This gorgeous horse
+                                and animal themed carousel glides graciously around in our indoor building. Pick the
+                                jumping horse or sit peacefully on the benches for a classic thrill.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-5">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="/assets/images/roller-coaster-gd77bac738_1920.jpg" class="w-100 rounded-start"
+                                alt="Card title">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="card-title">Roller Coaster</h2>
+                            <p class="card-text">This mini coaster is the perfect thrill without an enormous scare.
+                                The giant serpent combines smooth sharp turns and gentle dips to make it one of the
+                                most popular attractions in the park.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row py-2 m-auto">
+                <div class="col-md-6 py-5">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="/assets/images/fun-fair-ga64086ea5_1920.jpg" class="w-100 rounded-start"
+                                alt="Card title">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="card-title">Cup Swinger</h2>
+                            <p class="card-text"> Brand New cup Swinger for Summer 2014! Swing around and around,
+                                rising 20 feet in the air as the tower reaches its full height.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-5">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="/assets/images/pexels-rebecca-iofis-1225209.jpg" class="w-100 rounded-start"
+                                alt="Card title">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="card-title">Swings Ride</h2>
+                            <p class="card-text">The swing ride or chair swing ride is an amusement ride that is a
+                                variation on the carousel in which the seats are suspended from the rotating top of
+                                the carousel.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row py-2 m-auto">
+                <div class="col-md-6 py-5">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="/assets/images/herman-national-park-gf18543fb7_1920.jpg"
+                                class="w-100 rounded-start" alt="Card title">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="card-title">Mini Train</h2>
+                            <p class="card-text">Part of our historical collection, it calls to all parents and
+                                grandparents. The “Keansburg Express” rides again! As part of our historical
+                                commitment, our gasoline powered train is now circling it’s second million miles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-5">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="/assets/images/fair-ga64e6172b_1920.jpg" class="w-100 rounded-start"
+                                alt="Card title">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="card-title">Bumper Cars</h2>
+                            <p class="card-text">Completely Remodeled with a new fleet of Bertazzon cars, you’ll
+                                have fun driving and bumping your way through the newly refurbished track! Maximum
+                                of 3 rides when purchasing an All-You-Can-Ride Wristband special.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row py-2 m-auto">
+                <div class="col-md-6 py-5">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="/assets/images/ride-ge0b10d3b0_1280.jpg" class="w-100 rounded-start"
+                                alt="Card title">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="card-title">Jump Around</h2>
+                            <p class="card-text">Another new addition to the park and what a hit! Navigate your baja
+                                buggy through the desert with a unique bouncing motion. This award-winning ride can
+                                take a parent along as well.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-5">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="/assets/images/ferris-wheel-g0931b815a_1920.jpg" class="w-100 rounded-start"
+                                alt="Card title">
+                        </div>
+                        <div class="col-md-6 ">
+                            <h2 class="card-title">Ferris Wheel</h2>
+                            <p class="card-text"> This beautifully detailed ride has six brightly colored and
+                                Parents can ride with their children and see the view of the ocean from the top.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- zones end -->
+
+    <!-- restaurant start -->
+    <section id="restaurant">
+
+        <div class="container py-5">
+            <div class="row text-center mt-5">
+                <h1 class="text-center mt-1 m-auto text-light p-2 bg-section mt-2">Restaurants</h1>
+            </div>
+        </div>
+        <div class="container ">
+            <div class="row mt-4 m-auto bg-resturant text-center">
+                <div class="col-md-6 p-0 m-auto">
+                    <div id="slider1" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#slider1" data-bs-slide-to="0" class="active" aria-current="true"
+                                aria-label="First slide"></li>
+                            <li data-bs-target="#slider1" data-bs-slide-to="1" aria-label="Second slide"></li>
+                            <li data-bs-target="#slider1" data-bs-slide-to="2" aria-label="Third slide"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="/assets/images/pexels-nastyasensei-331107.jpg" class="w-100 d-block"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/pexels-designecologist-3458448.jpg" class="w-100 d-block"
+                                    alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/pexels-chevanon-photography-302901.jpg" class="w-100 d-block"
+                                    alt="Third slide">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slider1"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#slider1"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0 m-auto">
+                    <h2 class="text-light mx-3 bg-dark">Nino's Family Restaurant</h2>
+                    <h5 class="py-2">PRICE RANGE</h5>
+                    <p>PKR 5,879 - PKR 13,228</p>
+                    <h5>CUISINES</h5>
+                    <p>American, Bar, Pub, Brew Pub, Seafood</p>
+                    <h5>MEALS</h5>
+                    <p>Lunch, Dinner, Brunch, Drinks</p>
+                </div>
+            </div>
+
+            <div class="row mt-5 m-auto bg-resturant text-center">
+                <div class="col-md-6 p-0 m-auto">
+                    <div id="slider2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#slider2" data-bs-slide-to="0" class="active" aria-current="true"
+                                aria-label="First slide"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="1" aria-label="Second slide"></li>
+                            <li data-bs-target="#slider2" data-bs-slide-to="2" aria-label="Third slide"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="/assets/images/pexels-chan-walrus-941861.jpg" class="w-100 d-block"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/pexels-igor-ovsyannykov-205961.jpg" class="w-100 d-block"
+                                    alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/pexels-thiago-patrevita-1121482.jpg" class="w-100 d-block"
+                                    alt="Third slide">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slider2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#slider2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0 m-auto">
+                    <h2 class="bg-dark mx-3 text-light">Drew's Bayshore Bistro</h2>
+                    <h5 class="py-2">PRICE RANGE</h5>
+                    <p>PKR 7,652 - PKR 11,558</p>
+                    <h5>CUISINES</h5>
+                    <p>American</p>
+                    <h5>SPECIAL DIETS</h5>
+                    <p>Vegetarian Friendly, Gluten Free Options</p>
+
+                </div>
+            </div>
+
+            <div class="row m-auto mt-5 bg-resturant text-center">
+                <div class="col-md-6 p-0 m-auto">
+                    <div id="slider3" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#slider3" data-bs-slide-to="0" class="active" aria-current="true"
+                                aria-label="First slide"></li>
+                            <li data-bs-target="#slider3" data-bs-slide-to="1" aria-label="Second slide"></li>
+                            <li data-bs-target="#slider3" data-bs-slide-to="2" aria-label="Third slide"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="/assets/images/pexels-ainis-jankauskas-169391.jpg" class="w-100 d-block"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/pexels-quark-studio-3201921.jpg" class="w-100 d-block"
+                                    alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/pexels-lisa-fotios-1152237.jpg" class="w-100 d-block"
+                                    alt="Third slide">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slider3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#slider3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0 m-auto">
+                    <h2 class="text-light bg-dark mx-3">The Melting Pot</h2>
+                    <h5 class="py-2">PRICE RANGE</h5>
+                    <p>PKR 2,661 - PKR 16,263</p>
+                    <h5>CUISINES</h5>
+                    <p>American, Bar, Grill, Wine Bar</p>
+                    <h5>SPECIAL DIETS</h5>
+                    <p>Vegetarian Friendly</p>
+                </div>
+            </div>
+
+            <div class="row m-auto  my-5 bg-resturant text-center">
+                <div class="col-md-6 p-0 m-auto">
+                    <div id="slider4" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#slider4" data-bs-slide-to="0" class="active" aria-current="true"
+                                aria-label="First slide"></li>
+                            <li data-bs-target="#slider4" data-bs-slide-to="1" aria-label="Second slide"></li>
+                            <li data-bs-target="#slider4" data-bs-slide-to="2" aria-label="Third slide"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="/assets/images/pexels-davide-baraldi-1739748.jpg" class="w-100 d-block"
+                                    alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/pexels-vedanti-239975.jpg" class="w-100 d-block"
+                                    alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/pexels-lisa-fotios-1126728.jpg" class="w-100 d-block"
+                                    alt="Third slide">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slider4"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#slider4"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0 m-auto">
+                    <h2 class="text-light bg-dark mx-3">Triumph Brewing Co. of Red Bank</h2>
+                    <h5 class="py-2">PRICE RANGE</h5>
+                    <p>PKR 3,844 - PKR 8,279</p>
+                    <h5>CUISINES</h5>
+                    <p>Italian</p>
+                    <h5>SPECIAL DIETS</h5>
+                    <p>Vegetarian Friendly, Vegan Options, Gluten Free Options</p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+    <!-- restaurant end -->
+
+    <!-- entertainment start -->
+    <section id="entertainment">
+        <div class="container py-5">
+            <div class="row mt-5 text-center">
+                <h1 class="text-center mt-1 m-auto text-light p-2 bg-section">Entertainment & Games</h1>
+            </div>
+            <div class="row mt-3 text-center">
+                <p>The Game Room and Bev & Wally's hava a great selection of Family Entertainment!</p>
+            </div>
+            <!-- entertainment slider -->
+            <div class="container mt-3">
+                <div class="col-md-10 m-auto">
+                    <div id="gameslide" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#gameslide" data-bs-slide-to="0" class="active" aria-current="true"
+                                aria-label="First slide"></li>
+                            <li data-bs-target="#gameslide" data-bs-slide-to="1" aria-label="Second slide"></li>
+                            <li data-bs-target="#gameslide" data-bs-slide-to="2" aria-label="Third slide"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="/assets/images/A happy mother and son are riding on a merry-go-round carousel together, smiling and having fun at a fair or amusement park_  The boy holds two thumbs up_.jpg"
+                                    class="w-100 d-block" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/Happy National Roller Coaster Day_ Revisiting some of America's most iconic thrill rides (1).jpg"
+                                    class="w-100 d-block" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/assets/images/Arizona State Fair - New Darlings.jpg" class="w-100 d-block"
+                                    alt="Third slide">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#gameslide"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#gameslide"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- entertainment slider -->
+
+            <div class="row text-center mt-5">
+                <div class="col-md-6">
+                    <div class="row mt-5">
+                        <div class="col-md-7">
+                            <img src="/assets/images/ropeladder.png" width="100%" alt="">
+                        </div>
+                        <div class="col-md-5 m-auto">
+                            <h4>Rope Ladder</h4>
+                            <p>Come give our brand new rope ladder a try! Climb to the top, ring the bell, and win a
+                                prize!</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row mt-5">
+                        <div class="col-md-7">
+                            <img src="/assets/images/DUCKPOND-1024x683.png" width="100%" alt="">
+                        </div>
+                        <div class="col-md-5 m-auto">
+                            <h4>Duck pond</h4>
+                            <p>Pick a ducky and win a prize. It’s a quacking good time.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-md-6">
+                    <div class="row mt-5">
+                        <div class="col-md-7">
+                            <img src="/assets/images/kidie baloon.png" width="100%" alt="">
+                        </div>
+                        <div class="col-md-5 m-auto">
+                            <h4>kiddie Balloon Darts</h4>
+                            <p>Throw a dart, win a prize. Easy as 1, 2, 3. KIDS WIN EVERY TIME.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row mt-5">
+                        <div class="col-md-7">
+                            <img src="/assets/images/Hoops.png" width="100%" alt="">
+                        </div>
+                        <div class="col-md-5 m-auto">
+                            <h4>Hoops</h4>
+                            <p>You don’t have to have perfect aim to win this game. Everyone is a winner!</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-md-6">
+                    <div class="row mt-5">
+                        <div class="col-md-7">
+                            <img src="/assets/images/candywheel-1024x654.png" width="100%" alt="">
+                        </div>
+                        <div class="col-md-5 m-auto">
+                            <h4>Candy Wheel</h4>
+                            <p>We are SWEET on you. Whatever sweet teeth you may have, we can fill it.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row mt-5">
+                        <div class="col-md-7">
+                            <img src="/assets/images/47509849_2373859542656051_443948006060851200_n.png" width="100%"
+                                alt="">
+                        </div>
+                        <div class="col-md-5 m-auto">
+                            <h4>Balloon Bust</h4>
+                            <p>You don’t have to have perfect aim to “Bust-A-Balloon” and win!</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- entertainment end -->
+
+    <!-- About start -->
+    <section id="about">
+        <div class="container pt-5 pb-2">
+            <div class="row mt-5  m-auto">
+                <h1 class="text-center mt-1 m-auto text-light p-2 bg-section">About us</h1>
+            </div>
+            <div class="row">
+                <img src="/assets/images/opening-2023-2.png" class="w-100 ms-5 mt-5" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <h5 class="text-dark fw-bold">OPERATIONS & ATTRACTIONS</h5>
+                    <p>At times, for the safety of our guests, rides, and attractions will be closed for maintenance.
+                        Refunds will not be given when attractions are closed for maintenance. Wristbands can not be
+                        shared, traded, or exchanged. Wristbands are only valid on day of purchase. Ride rules vary.
+                        Please check signs on entrances.</p>
+                    <h5 class="mt-3 text-dark fw-bold">LOOSE ARTICLES</h5>
+                    <p>Loose articles including cell phones, wallets, purses, keys, etc. may not be taken on thrill and
+                        select family rides. Please leave all personal items while you are riding with a companion.
+                        Employees are not allowed to watch over personal articles of guests.</p>
+                    <h5 class="mt-3 text-dark fw-bold">RIDE RESTRAINT SYSTEMS</h5>
+                    <p>All guests are required to use all ride restraint systems properly at all times. Guests who are
+                        large framed, very tall or too small may not be allowed to ride certain rides due to safety
+                        regulations. Any guest who tampers with a safety restraint system will be subject to prosecution
+                        under New Jersey State Law. Any violator may be subject to fines up to $1000 and up to 6 months
+                        in jail.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Footer start -->
+    <footer>
+        <div class="container-fluid pt-5 mt-5">
+            <div class="row footer p-4 text-light">
+                <div class="col-md-5">
+                    <a class="navbar-brand shadow-none" href="#"><img src="/assets/images/keansburg park logo.png"
+                            class="mb-5 w-50"></a>
+                    <p>PO Box 189
+                        275 Beachway Avenue
+                        Keansburg, NJ 07734 <br>
+                        Phone: (732) 495-1400 <br>
+                        Fax: (732) 495-1402 <br>
+                    </p>
+                    <p>No pets, bikes or skateboards allowed on the boardwalk.</p>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <h2 class="mb-4">Pages</h2>
+                    <a href="#home" class="text-decoration-none link text-light fs-6">
+                        <p>Home</p>
+                    </a>
+                    <a href="#about" class="text-decoration-none text-light fs-6">
+                        <p> About</p>
+                    </a>
+                    <a href="#contact-us" class="text-decoration-none text-light fs-6">
+                        <p> Contact us </p>
+                    </a>
+                    <a href="/sitemape.html" class="text-decoration-none text-light fs-6">
+                        <p>Sitemape</p>
+                    </a>
+                </div>
+                <div class="col-md-4 mt-2">
+                    <form action="">
+                    <label for="newsletter" class="fs-2 mb-4">Sign up for our Newsletter!</label>
+                    <input type="email" id="newsletter" required name="email" placeholder="Email" class="w-75 input p-2 border-0">
+                    <button type="submit" class="btn-secondary float-end p-2 px-4 border-0">Sign up</button>
+                    </form>
+                    <div class="row mt-5">
+                        <div class="col-md-4">
+                            <h2>Follow us :</h2>
+                        </div>
+                        <div class="col-md-8">
+                            <a href="https://www.facebook.com/KeansburgAmusementRunawayRapids?fref=ts" target="_blank"
+                                class="text-light fs-3"><i
+                                    class="fa-brands iconf rounded-pill pe-2 fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/keansburg_amusement_park/" target="_blank"
+                                class="text-light fs-3"><i class="fa-brands iconi px-2 fa-instagram"></i></a>
+                            <a href="https://twitter.com/keansburgamuse" target="_blank" class="text-light fs-3"><i
+                                    class="fa-brands icont px-2 fa-twitter"></i></a>
+                            <a href="https://www.youtube.com/channel/UCzSjdtGlECw7qMfCw9H6_wg" target="_blank"
+                                class="text-light fs-3"><i class="fa-brands icony px-2 fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row bg-dark text-light pt-2 text-center">
+                <p> ©2023 Keansburg Amusement Park</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Optional: Place to the bottom of scripts -->
+    <script>
+        const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+
+    </script>
+
+
+</body>
+
+<script src="https://kit.fontawesome.com/0ccf6356bb.js" crossorigin="anonymous"></script>
+<script src="/assets/javascript/bootstrap.min.js"></script>
+<script src="/assets/javascript/popper.min.js"></script>
+
+</html>

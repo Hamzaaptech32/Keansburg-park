@@ -1,0 +1,247 @@
+body{
+    overflow-x: hidden;
+    font-family:Agency FB;
+    font-weight:500;
+}
+p{
+    font-family: Tw Cen MT;
+}
+.bg-height{
+    height: 100vh;
+}
+.navbar{
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.705) ;
+    background-color: #001b0fec;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    color: rgb(170, 31, 56);
+    box-shadow: 0 0 8px white;
+     transform: scale(1.1);
+    font-weight:bolder;
+}
+.marquee{
+    background-color: rgb(143, 27, 49);
+}
+.bg-section{
+    background-color: #001b0fec;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.554) ;
+    width:40%;
+    border-bottom-right-radius:50px ;
+    border-bottom-left-radius:50px ;
+}
+.bg-color{
+    background-color: #324e41;
+}
+.bg-ticker{
+    background-image: url(/assets/images/alejandro-barba-AvMChWxI1CA-unsplash.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.bg-tick{
+    background-color: #001b0f92;
+    text-shadow: 0 0 5px rgb(240, 66, 22);
+}
+.anim{
+    animation-name:navbaranimation;
+    animation-duration: 5.5s;
+    position: relative;
+}
+.navbar button{
+    animation-name:navbaranimation;
+    animation-duration: 5.5s;
+    position: relative;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;   
+}
+/* login form */
+.login{
+    background-image: url(/assets/images/pexels-kseniya-budko-7941158.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+/* login form */
+
+.ticketbutton{
+    font-family: Tw Cen MT;
+    animation-name:ticketbutton;
+    animation-duration: 7s;
+    position: relative;
+    box-shadow: 0px 0px 5px black ;
+}
+.ticketbutton:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+    box-shadow: none;
+}
+.bg-A{
+    min-height: 110vh;
+    background-image: url(/assets/images/Amusement-Park-Entertainment-Center-Injury-Lawyer.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #002314fe;
+}
+.bg-text1{
+    font-size: 35px;
+    text-align: start;
+    padding-top: 40%;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.605) ;
+}
+.bg-text2{
+    font-size: 55px;
+    text-align: start;
+    text-shadow: 0 0 5px rgb(255, 255, 255, 0.605) ;
+}
+.bg-text3{
+    font-size: 20px;
+    text-align: start;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.722) ;
+}
+.bg-A h1{
+    animation-name:mainpagetext;
+    animation-duration: 7s;
+    position: relative;
+}
+.bg-A p{
+    animation-name:mainpagetext;
+    animation-duration: 7s;
+    position: relative;
+}
+.bg-A h3{
+    animation-name:mainpagetext;
+    animation-duration: 7s;
+    position: relative;
+}
+.card img:hover{
+    margin-left: 8%;
+    transition:0.5s;
+    opacity: 0.6;
+}
+.pkg{
+    background-color: #324e41;
+  
+}
+.pkg:hover{
+    box-shadow: 0px 8px 5px #4947475f;
+    background-color: #68121e;
+    transition:0.3s;
+    transform:scale(1.1);
+}
+.pkginfo{
+    color: rgb(170, 31, 56);
+}
+.gallery-effect:hover{
+    opacity:0.5;
+    transform: scale(0.8);
+    transition: 0.2s;
+}
+.form-control{
+    box-shadow: none !important;
+    font-size:16px;
+    padding: 1%;
+    font-family:Tw Cen MT;
+}
+
+.form-control:focus{
+    border-color: #1d53335b;
+}
+.iconf:hover{
+    color:rgb(7, 117, 252);
+    text-shadow: 0 0 4px rgb(6, 102, 218);
+    transform: scale(1.3);
+    transition:0.1s;
+}
+.iconi:hover{
+    color:rgb(212, 20, 74);
+    text-shadow:0 0 4px rgb(193, 17, 67);
+    transform: scale(1.3);
+    transition:0.1s;
+
+}
+.icont:hover{
+    color:rgb(7, 174, 252);
+    text-shadow:0 0 4px rgb(10, 168, 241);
+    transform: scale(1.3);
+    transition:0.1s;
+}
+.icony:hover{
+    color:rgb(227, 10, 10);
+    text-shadow:0 0 4px rgb(214, 10, 10);
+    transform: scale(1.3);
+    transition:0.1s;
+}
+.bg-resturant{
+    background-color: rgba(98, 60, 60, 0);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.213) ;
+    width: 80%;
+}
+iframe{
+    opacity:0.5;
+}
+iframe:hover{
+    opacity:1;
+    transition:0.1s;
+}
+.footer{
+    background-color: #001b0fec;
+}
+/* Animation */
+@keyframes ticketbutton{
+    0%{opacity: 0;left: 200%;background-color: rgb(35, 35, 35);color: rgb(197, 195, 195);}
+    25%{opacity: 0;left: 200%;background-color: rgb(35, 35, 35);color: rgb(197, 195, 195);}
+    50%{opacity: 0.5;left: 0%;background-color: rgb(44, 43, 43);color: rgb(197, 195, 195)}
+    75%{left: 0%;}
+    100%{left: 0%;}
+}
+@keyframes mainpagetext{
+    0%{opacity: 0;left: 200%;}
+    25%{opacity: 0;left: 200%;}
+    50%{opacity: 0.5;left: 0%;}
+    75%{left: 0%;}
+    100%{left: 0%;}
+
+}
+
+@keyframes navbaranimation{
+    0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity:0.5;}
+    75%{opacity: 1;}
+    100%{opacity: 1;}
+}
+
+/* Animation */
+@media screen and (max-width:800px){
+    .bg-A h1{
+        margin-right: 85px;
+        text-align: center; 
+    }
+    .bg-A h3{
+        text-align: center;
+        margin-right: 85px;
+    }
+    .bg-A p{
+        visibility: hidden;
+    }
+    .ticketbutton{
+        padding: 4%;
+        padding-inline: 10%;
+        margin-left: 23%;
+        margin-top: -65px;
+        background-color:#000000bc;
+        color: white;
+        border: 1px solid #000000bc;
+    }
+    .ticketbutton:hover{
+        transform: scale(1.1);
+    }
+    }
